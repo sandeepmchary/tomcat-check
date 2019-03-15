@@ -2,4 +2,4 @@
 - hosts : ubuntu
   become: yes
   roles:
-  - tom
+  - role
