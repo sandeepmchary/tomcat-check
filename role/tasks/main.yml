@@ -21,7 +21,7 @@
     when: st_to_be_set == "present"
   - name: install additional packages
     apt:
-      name: {{ item }}
+      name: "{{ item }}"
     with_items: 
       {{additional_packages }}
     when: st_to_be_set == "present"
