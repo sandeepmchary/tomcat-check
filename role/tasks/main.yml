@@ -23,7 +23,7 @@
     apt:
       name: "{{ item }}"
     with_items: 
-      {{additional_packages }}
+      "{{additional_packages }}"
     when: st_to_be_set == "present"
   - name: configure user for tomcat
     template:
