@@ -1,6 +1,5 @@
 ---
 # handlers file for role
-handlers:
 - name: restart tomcat
   service: 
     name: "{{ package }}"
